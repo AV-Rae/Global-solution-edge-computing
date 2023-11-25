@@ -21,6 +21,8 @@ Fluxo de Trabalho
     Configurando a aplicação:
         para configurar e executar a aplicação basta ligar-la, e connectar-se na mesma internet, apos isto connecte no servidor mqtt pelo celular
 
+Link da Wokwi: https://wokwi.com/projects/382285766094451713
+
 Como Contribuir
 
 Se você estiver interessado em contribuir para o desenvolvimento ou melhorias deste projeto, sinta-se à vontade para abrir problemas, enviar solicitações de pull, ou entrar em contato com a equipe de desenvolvimento. Todas as contribuições são bem-vindas!
