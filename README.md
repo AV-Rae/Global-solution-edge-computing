@@ -18,11 +18,8 @@ Componentes Principais
 
 Fluxo de Trabalho
 
-    Configuração do Dispositivo:
-        Os profissionais de saúde configuram o dispositivo de medição de acordo com as especificações do medicamento e as necessidades do paciente.
-
-    Monitoramento Remoto:
-        Profissionais de saúde podem monitorar as doses administradas remotamente, garantindo uma gestão eficaz do tratamento.
+    Configurando a aplicação:
+        para configurar e executar a aplicação basta ligar-la, e connectar-se na mesma internet, apos isto connecte no servidor mqtt pelo celular
 
 Como Contribuir
 
