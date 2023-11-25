@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "author": "Aksel Viktor",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 52.84, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 169.2,
+      "left": 253.4,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 224.75,
+      "left": 211.2,
+      "attrs": { "value": "330" }
+    },
+    {
+      "type": "wokwi-hx711",
+      "id": "cell1",
+      "top": -93.4,
+      "left": -160.6,
+      "attrs": { "type": "5kg" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "led1:C", "r2:2", "green", [ "v0" ] ],
+    [ "led1:A", "esp:2", "green", [ "v9.6", "h19.2", "v-57.6" ] ],
+    [ "r2:1", "esp:GND.2", "green", [ "v0", "h-9.6", "v-201.6" ] ],
+    [ "cell1:VCC", "esp:5V", "red", [ "h-38.4", "v163.2" ] ],
+    [ "cell1:GND", "esp:GND.1", "black", [ "h-28.8", "v9.3" ] ],
+    [ "cell1:DT", "esp:12", "gold", [ "h-19.2", "v191.5" ] ],
+    [ "cell1:SCK", "esp:14", "green", [ "h-9.6", "v-0.8" ] ]
+  ],
+  "dependencies": {}
+}
